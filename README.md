@@ -1,2 +1,3 @@
 # vishal-jfc
-This
+This is my first Git repository
+Author - Vishal Singh
