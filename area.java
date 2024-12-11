@@ -1,5 +1,5 @@
 import java.util.*;
-class area{
+class CircleCalculator{
     public static void main(String[] args){
         double PI = 3.14;
         Scanner sc = new Scanner(System.in);
