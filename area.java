@@ -1,10 +1,17 @@
 import java.util.*;
 class CircleCalculator{
     public static void main(String[] args){
-        double PI = 3.14;
-        Scanner sc = new Scanner(System.in);
-        int r = sc.nextInt();
-        double area = (PI*r*r);
-        System.out.println(area);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the radius of circle: ");
+        double radius = scanner.nextDouble();
+
+        double circumference = 2 * Math.PI * radius;
+
+        double area = Math.PI * Math.pow(radius,2);
+
+        System.out.printf("The circumference of the circle with radius %.2f is: %.2f",radius,circumference);
+        System.out.printf("The area of the circle with radius %.2f is: %.2f",radius,area);
+
+        scanner.close();
     }
 }
