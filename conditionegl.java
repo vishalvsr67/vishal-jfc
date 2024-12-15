@@ -12,11 +12,11 @@ class conditionegl{
        }
        else{
         if(a > b){
-             System.out.println("greater");
+             System.out.println("a is greater");
         }
         else{     
             if(a < b)
-            System.out.println("lesser");
+            System.out.println("a is lesser");
            }
        }
     }
