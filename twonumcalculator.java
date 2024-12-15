@@ -4,7 +4,7 @@ class twonumcalculator{
         Scanner sc = new Scanner(System.in);
         double a = sc.nextDouble();
         double b = sc.nextDouble();
-        String operations = sc.nextLine();
+        sc.nextLine();
         String operations = "additon,subtraction, multiplication, division, modulo";
         double addition = a + b;
         double subtraction = a - b;
@@ -15,18 +15,16 @@ class twonumcalculator{
         switch(operations){
             case 1: System.out.println(addition);
             break;
-            case 2: System.out.println(addition);
+            case 2: System.out.println(subtraction);
             break;
-            case 3: System.out.println(addition);
+            case 3: System.out.println(multiplication);
             break;
-            case 4: System.out.println(addition);
+            case 4: System.out.println(division);
             break;
-            case 1: System.out.println(addition);
+            case 5: System.out.println(modulo);
             break;
-            case 1: System.out.println(addition);
-            break;
-
-
-        }        
+            Default:
+                    System.out.println("Invalid operation choosed");
+            }        
     }
 }
