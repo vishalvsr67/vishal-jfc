@@ -12,7 +12,7 @@ class switchbutton{
         break;
         case 3: System.out.println("Bonjour");
         break;
-        default: System.out.printl("Invalid button");
+        default: System.out.println("Invalid button");
         }
     }
 }
