@@ -14,7 +14,8 @@ class TableCreator{
         double r8answer = number * 8;
         double r9answer = number * 9;
         double r10answer = number * 10;
-
+        scanner.close();
+        
         System.out.println(r1answer);
         System.out.println(r2answer);
         System.out.println(r3answer);
