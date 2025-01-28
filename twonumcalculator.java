@@ -1,30 +1,49 @@
 import java.util.Scanner;
-class twonumcalculator{
+class Twonumcalculator{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
-        sc.nextLine();
-        String operations = "additon,subtraction, multiplication, division, modulo";
-        double addition = a + b;
-        double subtraction = a - b;
-        double multiplication = a * b;
-        double division = a / b;
-        double modulo = a % b;
+        Scanner scanner = new Scanner(System.in);
 
-        switch(operations){
-            case 1: System.out.println(addition);
+        //taking input for two numbers
+        System.out.println("Enter the first number (a): ");
+        double a = scanner.nextDouble();
+        System.out.println("Enter the second number (b): ");
+        double b = scanner.nextDouble();
+        
+        System.out.println("choose the operation to perform");
+        System.out.println("1: + (addition)");
+        System.out.println("2: - (subtration)");
+        System.out.println("3: * (multiplication)");
+        System.out.println("4: / (division)");
+        System.out.println("5: % (modulo)");
+
+        System.out.print("choose the choice from(1-5):");
+        int choice = scanner.nextInt();
+
+        double result;
+
+        switch(choice){
+            case 1: 
+                result = a + b;
+                System.out.println("Result of addition:"+result);
             break;
-            case 2: System.out.println(subtraction);
+            case 2:
+                result = a - b; 
+                System.out.println("Result of subtraction:"+result);
             break;
-            case 3: System.out.println(multiplication);
+            case 3:
+                result = a * b;
+                System.out.println("Result of multiplication:"+result);
             break;
-            case 4: System.out.println(division);
+            case 4: 
+            result = a / b;
+            System.out.println("Result of division:"+result);
             break;
-            case 5: System.out.println(modulo);
+            case 5:
+            result = a % b;
+            System.out.println("Result of modulo:"+result);
             break;
-            Default:
-                    System.out.println("Invalid operation choosed");
+            default: System.out.println("Invalid choice");
             }        
     }
+
 }
