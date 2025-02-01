@@ -4,5 +4,4 @@ public class Loopsie {
             System.out.println("counter");
         }
     }
-    
 }
