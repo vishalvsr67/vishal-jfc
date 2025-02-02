@@ -6,7 +6,7 @@ public class tablecrealimitedhr {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         if(N >= 0 && N <= 20){
-            for(int i = 1; i < 11; i++){
+            for(int i = 1; i <=10; i++){
                 int result = (N * i);
                 System.out.println(N + " x " + i + " = " + (N * i));
             }
