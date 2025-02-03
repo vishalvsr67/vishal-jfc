@@ -19,7 +19,7 @@ public class loopsiihr {
                 sum += Math.pow(2, i) * b;  // Compute term
                 System.out.print(sum + " ");  // Print in same line
             }
-            System.out.println();  // Move to new line after each query}
+            System.out.println();  // Move to new line after each query
             }
             else{
                 System.out.println("Invalid range choosen!");
