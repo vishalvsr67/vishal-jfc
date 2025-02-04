@@ -6,7 +6,7 @@ public class pphprhombus{
         for(int i=1; i<=n; i++){
             //inner loop -> for spaces
             for(int j=1; j<=m-i; j++){
-                System.out.print(" ");
+                System.out.print("  ");
             }
             //inner loop -> print star
             for(int j=1; j<=m; j++){
