@@ -1,4 +1,4 @@
-public class patternsppnumhpy {
+public class patternsppnumhpy6 {
     public static void main(String[] args) {
         int n = 5;
         //outer loop
