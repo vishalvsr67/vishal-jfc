@@ -1,4 +1,4 @@
-public class pphpnumpyr {
+public class pphp2numpyr {
     public static void main(String[] args) {
         int n = 5;
         // outer loop
