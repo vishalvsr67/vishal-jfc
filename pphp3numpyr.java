@@ -9,10 +9,10 @@ public class pphp3numpyr {
                 System.out.print("  ");
             }
             //inner loop
-            for(int j = m-i-1; j >= i; j--){
+            for(int j = i; j >= 1; j--){
                 System.out.print(j+" ");
             }
-            for(int j = m-i+1; j <= m; j++){
+            for(int j = 2; j <= i; j++){
                 System.out.print(j+" ");
             }
             System.out.println();
