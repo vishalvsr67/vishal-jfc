@@ -5,7 +5,7 @@ public class ppbutterfly{
         for(int i = 1; i <= n; i++){
             //1st half
             for(int j = 1; j <= i; j++){
-                System.out.print("*");
+                System.out.print("* ");
             }
             //spaces
             int spaces = 2*(n-i);
@@ -14,7 +14,7 @@ public class ppbutterfly{
             }
             //second half
             for(int j = 1; j <= i; j++){
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
@@ -24,7 +24,7 @@ public class ppbutterfly{
         for(int i = n; i >= 1; i--){
             //1st half
             for(int j = 1; j <= i; j++){
-                System.out.print("*");
+                System.out.print("* ");
             }
             //spaces
             int spaces = 2*(n-i);
@@ -33,7 +33,7 @@ public class ppbutterfly{
             }
             //second half
             for(int j = 1; j <= i; j++){
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
