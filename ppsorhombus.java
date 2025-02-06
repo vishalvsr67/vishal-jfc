@@ -1,4 +1,4 @@
-public class pphprhombus{
+public class ppsorhombus{
     public static void main(String[] args) {
         int n = 5;
         int m = 5;
