@@ -1,4 +1,4 @@
-public class pphp3numpyr {
+public class pppalindromepy {
     public static void main(String[] args) {
         int n = 5;
         int m = 5;
