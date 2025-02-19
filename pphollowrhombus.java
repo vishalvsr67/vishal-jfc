@@ -8,7 +8,7 @@ public class pphollowrhombus{
             }
             if(i == 1 || i == n){
                 for(int j = 1; j <= 5; j++){
-                    System.out.print("*");
+                    System.out.print("*"+" ");
                 }
             } else if(i > 1 || i < n){
                 for(int j = 1; j <= i; j++){
