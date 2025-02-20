@@ -1,9 +1,9 @@
-public class ppnumhalfpyyramidvl6{
+public class ppnumhalfpyramidvl6{
     public static void main(String[] args){
         int n = 5;
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= i; j++){
-                syso
+                System.out.print("j");
             }
         }
     }
