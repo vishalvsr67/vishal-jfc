@@ -1,8 +1,8 @@
 import java.util.*;
 public class funproduct2num {
      public static int calculateProduct(int a, int b){
-        int product = a * b;
-        return product;
+    return a * b;
+        
     }
     
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class funproduct2num {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int sum = calculateProduct(a,b);
-        System.out.println(" of two numbers is :"+ sum);
+        System.out.println("Product of two numbers is :"+ calculateProduct(a,b));
     }
 }
 
