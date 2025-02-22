@@ -6,7 +6,8 @@ public class funprintfactorial {
         //loops
         if(n<0){
             System.out.println("invalid number");
-        }else{int factorial = 1;
+        }else{
+            int factorial = 1;
             for(int i = n; i >= 1; i--){
                 factorial = factorial + i;
             }
